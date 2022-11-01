@@ -113,6 +113,10 @@ home-img {
   flex-direction: column;
   gap: 15px;
 }
+li a {
+  color: #fff;
+  text-transform: uppercase;
+}
 
 li a:hover {
   text-decoration: underline;
