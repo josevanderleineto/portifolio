@@ -1,9 +1,9 @@
 :root {
   font-size: 16px;
-  --royal-blue-light:#13adc7;
-  --royal-blue-dark:#7ccdd6;
+  --royal-blue-light: #0f1624;
+  --royal-blue-dark: #3946d4;
   --white: #fff;
-  --backgroud:#0f1624 ;
+  --backgroud: #e2e3e9;
 }
 
 * {
