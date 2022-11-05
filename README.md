@@ -1,6 +1,6 @@
-# NLW copa
+# Portifolio
 
-![preview](/assets/capa.svg)
+![preview](img/capa-portifolio.png)
 
 Trilha Explorer
 
