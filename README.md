@@ -18,3 +18,7 @@ Projeto construido com objetetivo de expor meus projetos.
 ## Contato
 
 jv.neto@outlook.com.br
+
+MIT License
+
+Copyright (c) [year] [Vanderlei Neto]
