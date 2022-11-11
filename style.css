@@ -1,7 +1,7 @@
 :root {
   font-size: 16px;
-  --royal-blue-light: #0f1624;
-  --royal-blue-dark: #2dabc4;
+  --royal-blue-light: #2dabc4;
+  --royal-blue-dark:  #0f1624;
   --white: #fff;
   --backgroud: #e2e3e9;
 }
@@ -11,18 +11,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+ li {
+  list-style: none;
+ }
 
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--royal-blue-light);
+  background: var(--royal-blue-dark);
   height: 4.6875rem;
   padding: 1rem ;
   
-  position: fixed;
+  
+  position: absolute;
   top: 0;
   right: 0;
   width: 40rem;
@@ -62,7 +65,7 @@
 /* HOME */
 
 body {
-  background:#0f1624;
+  background:var(--royal-blue-dark);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -84,6 +87,7 @@ section#home {
 }
 home-img {
   justify-content: center;
+  position: relative;
 }
 
 .tecnologias {
@@ -114,7 +118,7 @@ home-img {
   gap: 15px;
 }
 li a {
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
 }
 
@@ -126,20 +130,22 @@ li a:hover {
 h1 {
   font-size: 60px;
   text-transform: uppercase;
-  color: #13adc7;
+  color: var(--royal-blue-light);
   padding: 32px;
 }
 
 h2 {
   font-size: 40px;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white);
 
   padding: 32px;
 }
-
+.menu {
+  color: var(--royal-blue-light);
+}
 p {
-  color: #fff;
+  color: var(--white);
 }
 section ul li {
   transition: transform 0.3s;
@@ -151,33 +157,33 @@ section ul li:hover {
 
 a {
   text-decoration: none;
-  color: #13adc7;
+  color: var(--royal-blue-light);
 }
 
 .texto-sobre {
   font-size: 16px;
-  color: #fff;
+  color: var(--white);
   padding: 32px;
   text-align: justify;
 }
 
 #foco {
-  color: #fff;
+  color: var();
 }
 
 span {
-  color: #13adc7;
+  color: var(--white);
 }
 
 strong {
-  color: #13adc7;
+  color: var(--royal-blue-light);
 }
 
 .home-img img {
   max-width: 200px;
   width: 100%;
   animation: float 5s ease-in-out infinite;
-  box-shadow: 0 10px 10px #13adc7;
+  box-shadow: 0 10px 10px var(--royal-blue-light);
   border-radius: 50%;
 }
 
@@ -276,7 +282,7 @@ footer a {
 
   .redes {
     margin-bottom: 0;
-    margin-right: var(--mb-4);
+    
     padding: 32px;
   }
   .homeimg {
