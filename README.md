@@ -1,6 +1,6 @@
 # Portifolio
 
-![preview](img/capa-portifolio.png)
+![preview](/assets/img/capa-portifolio.png)
 
 Trilha Explorer
 
