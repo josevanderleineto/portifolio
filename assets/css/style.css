@@ -15,7 +15,6 @@
   list-style: none;
  }
 
-
 .header {
   display: flex;
   align-items: center;
@@ -23,15 +22,10 @@
   background: var(--royal-blue-dark);
   height: 4.6875rem;
   padding: 1rem ;
-  
-  
   position: absolute;
   top: 0;
   right: 0;
   width: 40rem;
-  
-  
-  
 }
 
 .logo {
@@ -43,8 +37,7 @@
   list-style: none;
   display: flex;
   gap: 0.5rem;
-
-  
+ 
 }
 
 .menu a {
@@ -58,13 +51,9 @@
 }
 
 
-
-
-
 .btn-menu {
-  display: none
+  display: none;
 }
-
 
 /* HOME */
 
@@ -110,11 +99,7 @@ home-img {
   justify-content: center;
   text-align: center;
 }
-/*
 
-
-
-*/
 .curriculo {
   padding: 32px;
 }
