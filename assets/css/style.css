@@ -1,7 +1,7 @@
 :root {
   font-size: 16px;
   --royal-blue-light: #2dabc4;
-  --royal-blue-dark:  #0f1624;
+  --royal-blue-dark:  #2d233f;
   --white: #fff;
   --backgroud: #e2e3e9;
 }
@@ -43,7 +43,6 @@
 .menu a {
   display: block;
   padding: 1rem
-  border-radius: 0.5rem;
 }
 
 .menu a:hover {
@@ -405,4 +404,6 @@ footer a {
     grid-template-columns: repeat(2, 3fr);
     column-gap: 1rem;
   }
+}
+
 }
