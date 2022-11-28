@@ -4,6 +4,7 @@
   --royal-blue-dark:  #2d233f;
   --white: #fff;
   --backgroud: #e2e3e9;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -116,6 +117,7 @@ li a {
 
 li a:hover {
   text-decoration: underline;
+  color: var(--royal-blue-light);
 }
 /* Titulo */
 
