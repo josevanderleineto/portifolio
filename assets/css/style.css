@@ -5,10 +5,10 @@
   --royal-blue-dark:  #2d233f;
   --backgroud: #e2e3e9;*/ 
    --royal-blue-light: #2dabc4;
+   --blue-fort: #0b65ec;
   --white: #fff;
   scroll-behavior: smooth;
 }
-
 
 * {
   margin: 0;
@@ -23,7 +23,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--royal-blue-dark);
   height: 4.6875rem;
   padding: 1rem ;
   position: absolute;
@@ -48,20 +47,15 @@
   display: block;
   padding: 1rem
 }
-
 .menu a:hover {
   background: var(--royal-blue-dark);
 }
 
-
 .btn-menu {
   display: none;
 }
-
 /* HOME */
-
 body {
-  background:var(--royal-blue-dark);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -154,7 +148,7 @@ section ul li:hover {
 
 a {
   text-decoration: none;
-  color: var(--royal-blue-light);
+  color: var(--blue-fort);
 }
 
 .texto-sobre {
@@ -173,7 +167,7 @@ span {
 }
 
 strong {
-  color: var(--royal-blue-light);
+  color: var(--blue-fort);
 }
 
 .home-img img {
@@ -326,8 +320,6 @@ footer a {
     top: 3rem;
   }
 
-
-
 @media (max-width: 600px) {
   .menu {
     display: block;
@@ -410,5 +402,4 @@ footer a {
     column-gap: 1rem;
   }
 }
-
 }

@@ -2,9 +2,10 @@
 
 ![preview](/assets/img/capa-portifolio.png)
 
-Trilha Explorer
 
 Projeto construido com objetetivo de expor meus projetos.
+
+Esse site muda a cor de fundo de acodo com o horário.
 
 [ Clique aqui para acessar](https://josevanderleineto.github.io/portifolio/)
 
