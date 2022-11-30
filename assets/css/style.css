@@ -7,6 +7,7 @@
    --royal-blue-light: #2dabc4;
    --blue-fort: #0b65ec;
   --white: #fff;
+  --color-transform: #b94866;
   scroll-behavior: smooth;
 }
 
@@ -114,7 +115,7 @@ li a {
 
 li a:hover {
   text-decoration: underline;
-  color: var(--royal-blue-light);
+  color: var(--color-transform);
 }
 /* Titulo */
 
@@ -148,7 +149,7 @@ section ul li:hover {
 
 a {
   text-decoration: none;
-  color: var(--blue-fort);
+  color: var(--color-transform);
 }
 
 .texto-sobre {
