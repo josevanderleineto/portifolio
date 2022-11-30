@@ -153,21 +153,17 @@ a {
 
 .texto-sobre {
   font-size: 16px;
-  color: var(--white);
   padding: 32px;
   text-align: justify;
 }
 
-#foco {
-  color: var();
+
+strong {
+  color: #0b65ec;
 }
 
 span {
-  color: var(--white);
-}
-
-strong {
-  color: var(--blue-fort);
+  color: #0b65ec;
 }
 
 .home-img img {
