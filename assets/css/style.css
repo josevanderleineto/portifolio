@@ -1,11 +1,14 @@
+
 :root {
-  font-size: 16px;
+  /*font-size: 16px;
   --royal-blue-light: #2dabc4;
   --royal-blue-dark:  #2d233f;
+  --backgroud: #e2e3e9;*/ 
+   --royal-blue-light: #2dabc4;
   --white: #fff;
-  --backgroud: #e2e3e9;
   scroll-behavior: smooth;
 }
+
 
 * {
   margin: 0;

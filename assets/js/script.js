@@ -65,3 +65,25 @@ btnMenu.addEventListener("touchstart", handleButtonClick);
   
   showText(el, text, interval);
   
+
+
+    
+function carregar() {
+  let  data = new Date();
+  let hora = data.getHours();
+  
+
+  if(hora >= 0 && hora < 12) {
+    //Manha
+    document.body.style.background = '#b997bd'
+    
+  } else if (hora >= 12 && hora <= 18) {
+    //Tarde
+    document.body.style.background = '#c8addd'
+  } else {
+    //Noite
+    document.body.style.background = '#2d233f'
+  }
+  
+    
+} 
