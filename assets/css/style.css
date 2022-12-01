@@ -4,9 +4,9 @@
   --royal-blue-light: #2dabc4;
   --royal-blue-dark:  #2d233f;
   --backgroud: #e2e3e9;*/ 
-   --royal-blue-light: #2dabc4;
+   --royal-blue-light: #4021da;
    --cor-dia: #b997bd;
-   --blue-fort: #0b65ec;
+   --azul: #000028;
   --white: #fff;
   --color-transform: #b94866;
   scroll-behavior: smooth;
@@ -50,7 +50,7 @@
   padding: 1rem
 }
 .menu a:hover {
-  background: var(--royal-blue-dark);
+  background: var(--royal-blue);
 }
 
 .btn-menu {
@@ -58,7 +58,7 @@
 }
 /* HOME */
 body {
-  background: var(--cor-dia);
+  background: var(--royal-blue-light);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -124,7 +124,7 @@ li a:hover {
 h1 {
   font-size: 60px;
   text-transform: uppercase;
-  color: var(--royal-blue-light);
+  color: black;
   padding: 32px;
 }
 
@@ -151,7 +151,7 @@ section ul li:hover {
 
 a {
   text-decoration: none;
-  color: var(--blue-fort);
+  color: var(--azul);
 }
 
 
@@ -164,11 +164,11 @@ a {
 
 
 strong {
-  color: #0b65ec;
+  color: var(--azul);
 }
 
 span {
-  color: #0b65ec;
+  color: var(--azul);
 }
 
 .home-img img {

@@ -71,11 +71,19 @@ btnMenu.addEventListener("touchstart", handleButtonClick);
 function carregar() {
   let  data = new Date();
   let hora = data.getHours();
+
   if(hora >= 6 && hora < 18) {
     //Em quanto estiver claro o fundo será claro
-    document.body.style.background = '#b997bd' 
+    document.body.style.background = '#4021da' 
   }  else {
     //
-    document.body.style.background = '#2d233f'
+    document.body.style.background = '#4021da'
   }  
 } 
+
+let cor = document.getElementById('cor');
+cor.addEventListener('click', clicar);
+
+function clicar() {
+  cor.style.background = 'red';
+}
