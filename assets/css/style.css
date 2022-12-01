@@ -5,6 +5,7 @@
   --royal-blue-dark:  #2d233f;
   --backgroud: #e2e3e9;*/ 
    --royal-blue-light: #2dabc4;
+   --cor-dia: #b997bd;
    --blue-fort: #0b65ec;
   --white: #fff;
   --color-transform: #b94866;
@@ -57,6 +58,7 @@
 }
 /* HOME */
 body {
+  background: var(--cor-dia);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -149,8 +151,10 @@ section ul li:hover {
 
 a {
   text-decoration: none;
-  color: var(--color-transform);
+  color: var(--blue-fort);
 }
+
+
 
 .texto-sobre {
   font-size: 16px;
