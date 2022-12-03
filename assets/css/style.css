@@ -7,7 +7,7 @@
    --cor-dia: #b997bd;
    --azul: #000028;
   --white: #fff;
-  --color-transform: #b94866;
+  --color-transform: #13adc7;
   scroll-behavior: smooth;
 }
 
@@ -318,7 +318,11 @@ footer a {
   .section-title::after {
     width: 80px;
     top: 3rem;
+
+    
   }
+
+
 
 @media (max-width: 600px) {
   .menu {
