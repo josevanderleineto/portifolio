@@ -217,8 +217,9 @@ section ul {
     display: inline-block;
     width: 200px;
     margin: 25px;
-    border: 1px solid var(--azul);
-    background: var(--color-transform);
+    border: 2.5px solid var(--color-transform);
+    background: var(--azul);
+    border-radius: 5px;
     
 
   }
@@ -254,6 +255,7 @@ section ul {
     font-weight: bold;
     transition: .5s;
     border-radius: 5px;
+    text-transform: uppercase;
   }
 
   .btn:hover {
@@ -353,6 +355,8 @@ footer a {
 
 
 @media screen and (min-width: 350px) {
+
+
   body {
     margin: 0;
   }
