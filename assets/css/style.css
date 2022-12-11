@@ -161,9 +161,11 @@ a {
 
 .texto-sobre {
   font-size: 16px;
-  padding: 32px;
+  padding: 50px;
   text-align: justify;
+  text-indent: 32px;
 }
+
 
 
 strong {
