@@ -216,10 +216,10 @@ section ul {
   }
   .card {
     display: inline-block;
-    width: 200px;
+    width: 350px;
     margin: 25px;
-    border: 2.5px solid var(--color-transform);
-    background: var(--azul);
+    border: 2.5px solid var(--azul);
+    background: var(--color-transform);
     border-radius: 5px;
     
 
@@ -233,17 +233,44 @@ section ul {
 
   .card-1 .card-image {
     background-image: url(/assets/img/escritorio.png);
+    
+  }
+
+  .card-1 .card-image:hover {
+    transform: scale(1.1);
+    border: 2.5px solid var(--color-transform);
+
   }
 
   .card-2 .card-image {
     background-image: url(/assets/img/google-glass.png);
+    
+  }
+
+  .card-2 .card-image:hover {
+    transform: scale(1.1);
+    border: 2.5px solid var(--color-transform);
+
   }
 
   .card-3 .card-image {
     background-image: url(/assets/img/nlw_projeto.png);
   }
+
+  .card-3 .card-image:hover {
+    transform: scale(1.1);
+    border: 2.5px solid var(--color-transform);
+
+  }
+
   .card-4 .card-image {
     background-image: url(/assets/img/copa-nlw.jpg);
+  }
+
+  .card-4 .card-image:hover {
+    transform: scale(1.1);
+    border: 2.5px solid var(--color-transform);
+
   }
 
   .btn {
@@ -261,8 +288,8 @@ section ul {
 
   .btn:hover {
     background-color: #fff;
-    color: aqua;
-    border-color: aqua;
+    color: var(--royal-blue-light);
+    border-color: var(--azul);
   }
   .card-description {
     padding: 20px 10px;
