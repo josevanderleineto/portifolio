@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+    <script defer src="assets/js/form.js"></script>
+</head>
+<body>
+
+    <h2>Contato</h2>
+    <form action="https://formsubmit.co/jv.neto@outlook.com.br" method="POST" data-form>
+        <label for="nome">Nome</label>
+        <input type="text" name="name" id="nome" placeholder="Digite seu nome" required>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" cols="30" rows="10"></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="Muito obrigado pela mensagem! Embreve respoderemos seu contato com você. ">
+
+
+        <button type="submit"  data-button>Enviar</button><br>
+        <button class="voltar"><a href="index.html"  rel="noopener noreferrer" class="voltar">Voltar</a> </button>
+
+   </form>
+</body>
+</html>

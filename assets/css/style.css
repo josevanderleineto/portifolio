@@ -381,6 +381,18 @@ footer a {
   }
 }
 
+button {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  border: transparent;
+  background: var(--color-transform);
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
 
 @media screen and (min-width: 350px) {
 

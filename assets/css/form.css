@@ -1,0 +1,114 @@
+:root {
+    /*font-size: 16px;
+    --royal-blue-light: #2dabc4;
+    --royal-blue-dark:  #2d233f;
+    --backgroud: #e2e3e9;*/ 
+     --royal-blue-light: #4021da;
+     --cor-dia: #b997bd;
+     --azul: #000028;
+    --white: #fff;
+    --color-transform: #13adc7;
+    scroll-behavior: smooth;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    background: var(--royal-blue-light);
+    font-family: sans-serif;
+}
+
+form {
+    width: 100%;
+    max-width: 30rem;
+}
+
+button {
+    display: block;
+    border-radius: 1.23rem;
+
+
+}
+
+label, input, textarea, button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+    color: #fff;
+    background: var(--color-transform);
+    border: 0.125 solid transparent;
+    border-radius: 1.23rem;
+    transition: border-color 0.3s box-shadow 0.3s;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus {
+    outline: none;
+    border-color: var(--azul);
+    box-shadow: 0 0 0 0. 3123rem var(--cor-dia);
+
+
+
+
+
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: gray;
+}
+
+textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+button {
+    border: none;
+    border-radius: 99px;
+    color: #fff;
+    background: #1d90f5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, button:focus {
+    outline: none;
+    background: #1d90f5;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: gray;
+
+}
+
+.success, .error {
+    text-align: center;
+}
+
+.success {
+    color: greenyellow;
+}
+
+.error {
+    color: tomato;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
